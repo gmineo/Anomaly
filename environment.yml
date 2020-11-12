@@ -2,6 +2,7 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - quandl
   - numpy
   - psutil
   - toolz
@@ -13,7 +14,19 @@ dependencies:
   - dask
   - scipy
   - ipython
-  - jupyter 
+  - jupyter
+  - lxml
+  - requests
+  - enum34
+  - click
+  - nose
+  - mock
+  - coverage
   - pip
   - pip: 
+    - alpha-vantage
     - statsmodels
+    - pandas-datareader
+    - finam-export
+    - urltools
+    - click-datetime
