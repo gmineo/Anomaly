@@ -15,6 +15,7 @@ dependencies:
   - scipy
   - ipython
   - jupyter
+  - sklearn
   - lxml
   - requests
   - enum34
